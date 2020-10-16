@@ -8,8 +8,8 @@ def find_min_in_nested_arrays(src)
       if src[i][k] < min
         min = src[i][k] 
       end
-    small_array.push(min)
     end
+    small_array.push(min)
   end
   small_array
 end
